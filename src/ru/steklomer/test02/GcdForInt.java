@@ -15,7 +15,7 @@ public class GcdForInt {
       int i2 = in2.nextInt();
       res = res + "для целых чисел " + i1 + " и " + i2 + " НОД = " + getGCD(i1, i2) + " и НОК = " + getLCM(i1, i2);
     } catch (InputMismatchException e) {
-      res = "Ошибка: введённое значение не является простым числом";
+      res = "Ошибка: введённое значение не является целым числом";
     }
     System.out.println(res);
   }
