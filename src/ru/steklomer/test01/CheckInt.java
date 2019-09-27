@@ -25,7 +25,7 @@ public class CheckInt {
         }
       }
     } catch (InputMismatchException e) {
-      res = res + " ошибка: введённое значение не является простым числом";
+      res = "Ошибка: введённое значение не является целым числом";
     }
     System.out.println(res);
   }
